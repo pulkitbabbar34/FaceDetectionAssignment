@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1B2E5FCC0AE33067724917 /* Pods_FaceAbnormalitiesDetectionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2253497382561D67994C534C /* Pods_FaceAbnormalitiesDetectionApp.framework */; };
+		EB96D4772C302E1A00326D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D4762C302E1A00326D85 /* AppDelegate.swift */; };
+		EB96D4792C302E1A00326D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D4782C302E1A00326D85 /* SceneDelegate.swift */; };
+		EB96D47B2C302E1A00326D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D47A2C302E1A00326D85 /* ViewController.swift */; };
+		EB96D47E2C302E1A00326D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96D47C2C302E1A00326D85 /* Main.storyboard */; };
+		EB96D4812C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB96D47F2C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodeld */; };
+		EB96D4832C302E1C00326D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96D4822C302E1C00326D85 /* Assets.xcassets */; };
+		EB96D4862C302E1C00326D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96D4842C302E1C00326D85 /* LaunchScreen.storyboard */; };
+		EB96D48E2C302E7700326D85 /* WrinkleDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D48D2C302E7700326D85 /* WrinkleDetectionViewModel.swift */; };
+		EB96D4902C302EA200326D85 /* WrinkleDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D48F2C302EA200326D85 /* WrinkleDetectionViewController.swift */; };
+		EB96D4922C302F2300326D85 /* WrinkleDetectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D4912C302F2300326D85 /* WrinkleDetectionResult.swift */; };
+		EB96D4942C302FE500326D85 /* WrinkleDetectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96D4932C302FE500326D85 /* WrinkleDetectionModel.swift */; };
+		EB96D4AE2C3069F800326D85 /* s4tf_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB96D4AD2C3069F800326D85 /* s4tf_model.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2253497382561D67994C534C /* Pods_FaceAbnormalitiesDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceAbnormalitiesDetectionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D218E3C748F4C8C326B559 /* Pods-FaceAbnormalitiesDetectionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceAbnormalitiesDetectionApp.release.xcconfig"; path = "Target Support Files/Pods-FaceAbnormalitiesDetectionApp/Pods-FaceAbnormalitiesDetectionApp.release.xcconfig"; sourceTree = "<group>"; };
+		BAE57E6BF2D2C2D5D2B35CAD /* Pods-FaceAbnormalitiesDetectionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceAbnormalitiesDetectionApp.debug.xcconfig"; path = "Target Support Files/Pods-FaceAbnormalitiesDetectionApp/Pods-FaceAbnormalitiesDetectionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EB96D4732C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAbnormalitiesDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96D4762C302E1A00326D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB96D4782C302E1A00326D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB96D47A2C302E1A00326D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB96D47D2C302E1A00326D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB96D4802C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceAbnormalitiesDetectionApp.xcdatamodel; sourceTree = "<group>"; };
+		EB96D4822C302E1C00326D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB96D4852C302E1C00326D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB96D4872C302E1C00326D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB96D48D2C302E7700326D85 /* WrinkleDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrinkleDetectionViewModel.swift; sourceTree = "<group>"; };
+		EB96D48F2C302EA200326D85 /* WrinkleDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrinkleDetectionViewController.swift; sourceTree = "<group>"; };
+		EB96D4912C302F2300326D85 /* WrinkleDetectionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrinkleDetectionResult.swift; sourceTree = "<group>"; };
+		EB96D4932C302FE500326D85 /* WrinkleDetectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrinkleDetectionModel.swift; sourceTree = "<group>"; };
+		EB96D4AD2C3069F800326D85 /* s4tf_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = s4tf_model.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB96D4702C302E1A00326D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1B2E5FCC0AE33067724917 /* Pods_FaceAbnormalitiesDetectionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE8EBF41D61347B3710CDFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2253497382561D67994C534C /* Pods_FaceAbnormalitiesDetectionApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB96D46A2C302E1A00326D85 = {
+			isa = PBXGroup;
+			children = (
+				EB96D4752C302E1A00326D85 /* FaceAbnormalitiesDetectionApp */,
+				EB96D4742C302E1A00326D85 /* Products */,
+				F92C186CE6CA7523EFFE3589 /* Pods */,
+				5EE8EBF41D61347B3710CDFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB96D4742C302E1A00326D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB96D4732C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB96D4752C302E1A00326D85 /* FaceAbnormalitiesDetectionApp */ = {
+			isa = PBXGroup;
+			children = (
+				EB96D4AD2C3069F800326D85 /* s4tf_model.mlmodel */,
+				EB96D4762C302E1A00326D85 /* AppDelegate.swift */,
+				EB96D4782C302E1A00326D85 /* SceneDelegate.swift */,
+				EB96D47A2C302E1A00326D85 /* ViewController.swift */,
+				EB96D47C2C302E1A00326D85 /* Main.storyboard */,
+				EB96D4822C302E1C00326D85 /* Assets.xcassets */,
+				EB96D4842C302E1C00326D85 /* LaunchScreen.storyboard */,
+				EB96D4872C302E1C00326D85 /* Info.plist */,
+				EB96D47F2C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodeld */,
+				EB96D48D2C302E7700326D85 /* WrinkleDetectionViewModel.swift */,
+				EB96D48F2C302EA200326D85 /* WrinkleDetectionViewController.swift */,
+				EB96D4912C302F2300326D85 /* WrinkleDetectionResult.swift */,
+				EB96D4932C302FE500326D85 /* WrinkleDetectionModel.swift */,
+			);
+			path = FaceAbnormalitiesDetectionApp;
+			sourceTree = "<group>";
+		};
+		F92C186CE6CA7523EFFE3589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE57E6BF2D2C2D5D2B35CAD /* Pods-FaceAbnormalitiesDetectionApp.debug.xcconfig */,
+				73D218E3C748F4C8C326B559 /* Pods-FaceAbnormalitiesDetectionApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB96D4722C302E1A00326D85 /* FaceAbnormalitiesDetectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB96D48A2C302E1C00326D85 /* Build configuration list for PBXNativeTarget "FaceAbnormalitiesDetectionApp" */;
+			buildPhases = (
+				69A404C6859213694F94387D /* [CP] Check Pods Manifest.lock */,
+				EB96D46F2C302E1A00326D85 /* Sources */,
+				EB96D4702C302E1A00326D85 /* Frameworks */,
+				EB96D4712C302E1A00326D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceAbnormalitiesDetectionApp;
+			productName = FaceAbnormalitiesDetectionApp;
+			productReference = EB96D4732C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB96D46B2C302E1A00326D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB96D4722C302E1A00326D85 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EB96D46E2C302E1A00326D85 /* Build configuration list for PBXProject "FaceAbnormalitiesDetectionApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB96D46A2C302E1A00326D85;
+			productRefGroup = EB96D4742C302E1A00326D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB96D4722C302E1A00326D85 /* FaceAbnormalitiesDetectionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB96D4712C302E1A00326D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96D4862C302E1C00326D85 /* LaunchScreen.storyboard in Resources */,
+				EB96D4832C302E1C00326D85 /* Assets.xcassets in Resources */,
+				EB96D47E2C302E1A00326D85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69A404C6859213694F94387D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceAbnormalitiesDetectionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB96D46F2C302E1A00326D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96D47B2C302E1A00326D85 /* ViewController.swift in Sources */,
+				EB96D4902C302EA200326D85 /* WrinkleDetectionViewController.swift in Sources */,
+				EB96D4942C302FE500326D85 /* WrinkleDetectionModel.swift in Sources */,
+				EB96D4772C302E1A00326D85 /* AppDelegate.swift in Sources */,
+				EB96D4792C302E1A00326D85 /* SceneDelegate.swift in Sources */,
+				EB96D4AE2C3069F800326D85 /* s4tf_model.mlmodel in Sources */,
+				EB96D48E2C302E7700326D85 /* WrinkleDetectionViewModel.swift in Sources */,
+				EB96D4812C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodeld in Sources */,
+				EB96D4922C302F2300326D85 /* WrinkleDetectionResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB96D47C2C302E1A00326D85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB96D47D2C302E1A00326D85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB96D4842C302E1C00326D85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB96D4852C302E1C00326D85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB96D4882C302E1C00326D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB96D4892C302E1C00326D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB96D48B2C302E1C00326D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE57E6BF2D2C2D5D2B35CAD /* Pods-FaceAbnormalitiesDetectionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFQB7AG342;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceAbnormalitiesDetectionApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaceAbnormalitiesDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB96D48C2C302E1C00326D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D218E3C748F4C8C326B559 /* Pods-FaceAbnormalitiesDetectionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UFQB7AG342;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceAbnormalitiesDetectionApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaceAbnormalitiesDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB96D46E2C302E1A00326D85 /* Build configuration list for PBXProject "FaceAbnormalitiesDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96D4882C302E1C00326D85 /* Debug */,
+				EB96D4892C302E1C00326D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB96D48A2C302E1C00326D85 /* Build configuration list for PBXNativeTarget "FaceAbnormalitiesDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96D48B2C302E1C00326D85 /* Debug */,
+				EB96D48C2C302E1C00326D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB96D47F2C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB96D4802C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodel */,
+			);
+			currentVersion = EB96D4802C302E1A00326D85 /* FaceAbnormalitiesDetectionApp.xcdatamodel */;
+			path = FaceAbnormalitiesDetectionApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB96D46B2C302E1A00326D85 /* Project object */;
+}

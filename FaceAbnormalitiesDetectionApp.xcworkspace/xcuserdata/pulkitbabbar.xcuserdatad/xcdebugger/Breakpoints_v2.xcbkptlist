@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "481B7957-39E6-4999-B027-793DD894DEFA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D682991B-54F7-49F4-BFF3-F8B3E23143CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "detectWrinkles(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D682991B-54F7-49F4-BFF3-F8B3E23143CA - 250cbe3ca2e29184"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaceAbnormalitiesDetectionApp.WrinkleDetectionViewModel.detectWrinkles(in: __C.UIImage) -&gt; ()"
+                  moduleName = "FaceAbnormalitiesDetectionApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pulkitbabbar/Desktop/FaceAbnormalitiesDetectionApp/FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "D682991B-54F7-49F4-BFF3-F8B3E23143CA - 9919f066ccf62c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FaceAbnormalitiesDetectionApp.WrinkleDetectionViewModel.detectWrinkles(in: __C.UIImage) -&gt; ()"
+                  moduleName = "FaceAbnormalitiesDetectionApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pulkitbabbar/Desktop/FaceAbnormalitiesDetectionApp/FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "D682991B-54F7-49F4-BFF3-F8B3E23143CA - 9919f066ccf62c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FaceAbnormalitiesDetectionApp.WrinkleDetectionViewModel.detectWrinkles(in: __C.UIImage) -&gt; ()"
+                  moduleName = "FaceAbnormalitiesDetectionApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pulkitbabbar/Desktop/FaceAbnormalitiesDetectionApp/FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "721C3CF2-F91E-4266-91FF-362464524E00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "detectWrinkles(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "449A518F-79FC-4854-9E27-056DAADD27AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "detectWrinkles(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "449A518F-79FC-4854-9E27-056DAADD27AB - 250cbe3ca2e29242"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaceAbnormalitiesDetectionApp.WrinkleDetectionViewModel.detectWrinkles(in: __C.UIImage) -&gt; ()"
+                  moduleName = "FaceAbnormalitiesDetectionApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pulkitbabbar/Desktop/FaceAbnormalitiesDetectionApp/FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "449A518F-79FC-4854-9E27-056DAADD27AB - 250cbe3ca2e29242"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaceAbnormalitiesDetectionApp.WrinkleDetectionViewModel.detectWrinkles(in: __C.UIImage) -&gt; ()"
+                  moduleName = "FaceAbnormalitiesDetectionApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pulkitbabbar/Desktop/FaceAbnormalitiesDetectionApp/FaceAbnormalitiesDetectionApp/WrinkleDetectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56B3A5EE-98CA-40B8-9A52-2B5E0B60664F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaceAbnormalitiesDetectionApp/WrinkleDetectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "844CC13E-ABB0-4C42-98BA-F37AB6B9DCB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaceAbnormalitiesDetectionApp/WrinkleDetectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
